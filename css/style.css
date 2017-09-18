@@ -1,0 +1,245 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://allfont.net/allfont.css?fonts=agency-fb);
+a {
+  color: inherit;
+}
+
+.profile-pic img {
+  padding-top: 10px;
+  width: 50%;
+  max-width: 250px;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+h1 {
+  font-family: Lobster, Monospace;
+  font-size: 4em;
+  text-shadow: 2px 2px #000000;
+  color: grey;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-family: Agency FB;
+  font-size: 30px;
+  text-shadow: 2px 2px #fff;
+  color: grey;
+}
+
+h3 {
+  font-size: 2.5em;
+  text-shadow: 2px 2px #000000;
+  color: grey;
+  
+}
+
+p {
+  font-family: Agency FB;
+  font-size: 2.5em;
+  color: black;
+}
+
+.intro-header {
+  text-align: center;
+url("https://41.media.tumblr.com/1e7448ab2d13416d49af656eb2104df4/tumblr_o3qo5uBgHE1v9xwqlo1_1280.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 750px;
+  padding-top: 65px;
+  background-color: lightblue;
+}
+
+.media {
+  margin: 15px;
+}
+
+.btn-group {
+  padding-bottom: 20px;
+}
+
+#overlay {
+  background-color: rgba(50, 50, 50, 0.7);
+  border-radius: 50px;
+  margin: inherit;
+  padding-left: 20px;
+}
+
+.section2 {
+  background: url("https://41.media.tumblr.com/9de4b38b56ef36de15ec586a1d86e338/tumblr_o3qled3Me61v9xwqlo1_1280.jpg") no-repeat center center fixed;
+  height: 650px;
+  background-size: cover;
+  padding-top: 65px;
+  padding-left: 50px;
+  background-color: rgba(0, 0, 255, 0.6);}
+
+.portfolio {
+  background: url("https://41.media.tumblr.com/fa941b27fcc7336abd5b862b945cc8eb/tumblr_o3s096mwox1v9xwqlo1_1280.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.section4 {
+  background: url("https://40.media.tumblr.com/e057411ea6131dfecb5c551dfc49a580/tumblr_o3qrqgbDY01v9xwqlo1_1280.jpg") no-repeat center center fixed;
+  height: 600px;
+  background-size: cover;
+  padding-top: 65px;
+  padding-left: 50px;
+}
+
+#navbar {
+  background-color: black;
+}
+
+#title {
+  color: white;
+}
+
+@media (max-width: 797px) {
+  body {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+#portfolio .portfolio-item {
+  margin: 10 0 15px;
+  right: 0;
+  border: 1px outset rgba(255, 255, 255, 0.6);
+  border-radius: 50px;
+}
+
+#portfolio .portfolio-item:hover {
+  transition: 0.5s;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.9);
+  border-radius: 50px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: #fff;
+  border-radius: 50px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
+  border-radius: 50px;
+}
+
+
+
+#portfolio .portfolio-item .portfolio-text {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: rgba(89, 89, 241, 0.7);
+  text-align: center;
+  padding: 25px;
+  border-radius: 50px;
+}
+
+#portfolio .portfolio-item .portfolio-text h4 {
+  color: #fff;
+  text-transform: none;
+  margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-text p {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 13px;
+  margin: 0;
+}
+
+#portfolio * {
+  z-index: 2;
+  border-radius: 50px;
+}
+
+@media (min-width:767px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+    border-radius: 50px;
+  }
+}
+
+#portfolio .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+  border: 1px outset rgba(255, 255, 255, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#portfolio .portfolio-item:hover {
+  transition: 0.5s;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.9);
+}
+
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(0, 0, 0, .7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease .5s;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s, border-radius: 50px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+  border-radius: 50px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: #fff;
+}
+
+#portfolio h2 {
+  font-size: 7.5em;
+  font-family: Agency FB;
+  text-shadow: 2px 2px #fff;
+  color: grey;
+  padding-top:50px;
+}
+
+#portfolio h3 {
+  font-size: 2.5em;
+  text-shadow: 2px 2px #000000;
+  color: grey;
+  
+}
+
+
+
